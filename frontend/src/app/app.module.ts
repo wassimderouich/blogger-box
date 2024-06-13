@@ -12,7 +12,7 @@ import { CategoryService } from './data/category.service';  // Import CategorySe
 import { XComponent } from './data/x.component';  // Import XComponent
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { AddPostComponent } from './data/add-post.component';
-
+import { AddCategoryComponent } from './data/add-category.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +20,7 @@ import { AddPostComponent } from './data/add-post.component';
     PostListComponent,
     PostListItemComponent,
     AddPostComponent,
+    AddCategoryComponent ,
     XComponent  
   ],
   imports: [

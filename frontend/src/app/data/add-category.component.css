@@ -1,0 +1,27 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .text-danger {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+  }
+  
+  .list-group-item {
+    margin-top: 10px;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
