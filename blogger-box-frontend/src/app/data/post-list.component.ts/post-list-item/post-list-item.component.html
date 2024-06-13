@@ -1,0 +1,17 @@
+<div class="pt-4 p-2 post" *ngIf="post">
+<h3>{{ post.title}}</h3>
+<p>{{post.content}}</p>
+<div>
+<span class="badge rounded-pill text-bg-light">
+   <span style="font-weight: bold;"> Category : </span>{{post.category.name}}
+
+</span>
+<br/>
+<span> <span style="font-weight: bold;">Posted time : </span>{{ formattedDate  | date: 'fullDate' }}</span>
+</div>
+    <div>
+        <button style="margin-top: 10px;" type="button" (click)="deletePost(post.id)">
+            Delete
+        </button>
+    </div>
+</div>
